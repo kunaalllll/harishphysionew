@@ -9,22 +9,69 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <nav class="bg-gray-800 py-4">
-      <div class="container mx-auto px-4">
-        <div class="flex items-center justify-between">
-          <div class="flex gap-4 text-white">
-            <img src="./assets/images/logo.png" alt="" />
-            <a href="#" class="text-xl font-semibold"
-              >Harish <br />
-              <span class="text-[#55B6C7]">Physiotherapy</span></a
-            >
-          </div>
-          <div class="md:flex items-center space-x-4">
-            <a href="/" class="text-white hover:text-gray-300">Home</a>
-            <a href="./about.html" class="text-white hover:text-gray-300">About</a>
-            <a href="./services.html" class="text-white hover:text-gray-300">Services</a>
-            <a href="./contact.html" class="text-white hover:text-gray-300">Contact</a>
-          </div>
+    <nav
+      class="bg-[#202A37]"
+    >
+      <div class="flex flex-wrap items-center justify-between py-4 md:py-0 px-4 text-lg text-gray-700 mx-auto w-[80%]">
+        <div class="flex items-center gap-2">
+          <img
+            src="./assets/images/logogo.jpg"
+            alt=""
+            class="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24"
+          />
+          <a href="#" class="text-xl text-white font-semibold"
+            >Harish <br />
+            <span class="text-[#55B6C7]">Physiotherapy</span></a
+          >
+        </div>
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          id="menu-button"
+          class="h-6 w-6 cursor-pointer md:hidden block"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+
+        <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+          <ul
+            class="pt-4 text-base text-white md:flex md:justify-between md:pt-0"
+          >
+            <li>
+              <a class="md:p-4  lg: text-lg py-2 block  font-semibold hover:text-gray-400" href="/"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                class="md:p-4 lg: text-lg py-2 block font-semibold hover:text-gray-400"
+                href="./about.html"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                class="md:p-4 lg: text-lg py-2 block font-semibold hover:text-gray-400"
+                href="./services.html"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                class="md:p-4 lg: text-lg py-2 block font-semibold hover:text-gray-400"
+                href="./contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
